@@ -1,0 +1,161 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "signup": [
+    {
+      "fullName": "Anjal Gupta",
+      "emailAddress": "Anjal.gupta28@gmail.com",
+      "mobileNumber": "8770495994",
+      "password": "Anjal@123",
+      "id": 1
+    },
+    {
+      "fullName": "Ansh Gupta",
+      "emailAddress": "anshg@gmail.com",
+      "password": "Anjal@123",
+      "mobileNumber": 8770495994,
+      "id": 2
+    },
+    {
+      "fullName": "Anjal Gupta",
+      "emailAddress": "Anjal.gupta28@gmail.com",
+      "password": "Anjal@123",
+      "mobileNumber": 8770495994,
+      "id": 3
+    },
+    {
+      "fullName": "Test",
+      "emailAddress": "Test@123",
+      "password": "Test@123",
+      "mobileNumber": 1234567891,
+      "id": 4
+    },
+    {
+      "fullName": "Ansh gupta",
+      "emailAddress": "Anshgupta@gmail.com",
+      "password": "Anjal@123",
+      "mobileNumber": 8871840267,
+      "id": 5
+    },
+    {
+      "fullName": "anjal gupta",
+      "emailAddress": "anjal@gmail.com",
+      "password": "Anjal@123",
+      "mobileNumber": 8770495994,
+      "id": 6
+    }
+  ],
+  "employees": [
+    {
+      "firstName": "Anjall",
+      "lastName": "Gupta",
+      "email": "Anjal.gupta28@gmail.com",
+      "dob": "1998-07-27T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "Excellarate",
+      "experience": 21,
+      "ctc": 5.25,
+      "id": 1
+    },
+    {
+      "firstName": "Ramesh",
+      "lastName": "g",
+      "email": "dskbjkbnk",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "sankln",
+      "experience": 9,
+      "ctc": 6,
+      "id": 2
+    },
+    {
+      "firstName": "nkjfdvnk",
+      "lastName": "nfdjknkjn",
+      "email": "nfnkjnk",
+      "dob": "2023-04-03T18:30:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "nds,nkn",
+      "experience": 5,
+      "ctc": 5,
+      "id": 3
+    },
+    {
+      "firstName": "akbsjkbjk",
+      "lastName": "nsdkjkj",
+      "email": "ndkjskj",
+      "dob": "2023-04-10T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "dmklsmklm",
+      "experience": 85,
+      "ctc": 5,
+      "id": 4
+    },
+    {
+      "firstName": "ANjal",
+      "lastName": "djknjkhk",
+      "email": "dnksnkn",
+      "dob": "2023-04-10T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "seflnl1`",
+      "experience": 1,
+      "ctc": 555,
+      "id": 5
+    },
+    {
+      "firstName": "ldankjl`",
+      "lastName": "ojdakhkn",
+      "email": "kkskjqn",
+      "dob": "2023-04-09T18:30:00.000Z",
+      "gender": "male",
+      "education": "Matric",
+      "company": "scakdnjkn",
+      "experience": 6,
+      "ctc": 5,
+      "id": 6
+    },
+    {
+      "firstName": "Anjal",
+      "lastName": "g",
+      "email": "MKLMLDKLKN",
+      "dob": "2023-04-09T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": ",S,;L,",
+      "experience": 89,
+      "ctc": 88,
+      "id": 7
+    },
+    {
+      "firstName": "abksbkj",
+      "lastName": "kjkbdawkbjk",
+      "email": "bbkdabkb",
+      "dob": "2023-05-17T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "dnsckln",
+      "experience": 5,
+      "ctc": 5,
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

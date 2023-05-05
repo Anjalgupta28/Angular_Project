@@ -1,0 +1,37 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.main-body{
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1800px;
+}
+.table-container{
+  box-shadow: 10px 10px 5px 12px lightblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-details{
+  justify-content:flex-end;
+  display: flex;
+  margin-top: 10px;
+}
+.btn{
+  color: black;
+  background-color:azure;
+}
+.add-details-button{
+  margin-right: 10px; 
+  background-color: #1c2835;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+mat-spinner{
+  position: absolute;
+  top: 50%;
+  z-index: 9999;
+}

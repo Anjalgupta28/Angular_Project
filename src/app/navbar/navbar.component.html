@@ -1,0 +1,54 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<mat-toolbar color="primary" style="background-color: #1c2835;">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="sidenav.toggle()">
+     <mat-icon>menu</mat-icon>
+  </button>
+  <span class="hand-cursor" routerLink="/dashboard"> Angular</span>
+  <span class="example-spacer"></span>
+  <button class="hover-underline-animation" mat-button style="margin-right: 10px;"
+    routerLink="/dashboard">Dashboard</button>
+  <button class="hover-underline-animation" mat-button style="margin-right: 10px;" routerLink="/tablelist">Table
+    List</button>
+  <button class="hover-underline-animation" mat-button style="margin-right: 10px;" routerLink="/aboutus">About
+    Us</button>
+
+  <div ngbDropdown style="margin-right: 10px">
+    <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle></button>
+    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+      <button ngbDropdownItem routerLink="/profile">Profile</button>
+      <button ngbDropdownItem (click)="logout()">Logout</button>
+    </div>
+  </div>
+</mat-toolbar>
+
+<mat-sidenav-container>
+  <mat-sidenav #sidenav opened="false" mode="side">
+    <mat-nav-list>
+      <div class="logo">
+        <img class="imgLogo" src="./assets/AngularIcon.png" alt="Logo" />
+      </div>
+      <div class="divider"></div>
+      <div style=" display: flex; flex-direction: column; margin-top: 10px; width: 250px;">
+        <a class="hover-underline-animation" style="text-decoration: none;" mat-list-item routerLink="/dashboard">
+          <!-- <mat-icon style="vertical-align: center; margin-right: 1rem;">dashboard</mat-icon> -->
+          dashboard
+        </a>
+        <a class="hover-underline-animation" style="text-decoration: none;" mat-list-item routerLink="/tablelist">
+          <!-- <mat-icon style="vertical-align: center; margin-right: 1rem;">list</mat-icon> -->
+          TableList
+        </a>
+        <a class="hover-underline-animation" style="text-decoration: none;" mat-list-item routerLink="/aboutus">
+          <!-- <mat-icon style="vertical-align: center; margin-right: 1rem;">tablelist</mat-icon> -->
+          AboutUs
+        </a>
+      </div>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div style="height: 100vh; ">
+      <router-outlet>
+      </router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,50 @@
+<!-- <div class="text-center">
+    <h1>Signup</h1>
+
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Full Name</label>
+            <input formControlName="fullName" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Mobile Numer</label>
+            <input formControlName="mobileNumber" type="number" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Email address</label>
+            <input formControlName="emailAddress" type="email" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Signup</button>
+    </form>
+    <a routerLink="/login">Already have an account? Click to login!!</a>
+</div> -->
+<div class="login-box">
+    <h1>Signup</h1>
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+        <input formControlName="fullName" type="text" class="form-control" id="exampleInputEmail1"
+            placeholder="Full name" name="fullname" value aria-required="true" aria-label="Full name">
+        <!-- <div *ngIf="fullNameControl.pending">Checking...</div>
+        <div *ngIf="fullNameControl.errors?.duplicate">Username already taken.</div> -->
+
+        <input formControlName="mobileNumber" type="number" class="form-control" id="exampleInputPassword1"
+            placeholder="Mobile number" name="mobilenumber" value aria-required="true" aria-label="Mobile number">
+
+        <input formControlName="emailAddress" type="email" class="form-control" id="exampleInputPassword1"
+            placeholder="Email address" name="emailaddress" value aria-required="true" aria-label="Email address"
+            style="margin-top: 10px;">
+        <!-- <div *ngIf="emailAddressControl.pending">Checking...</div>
+        <div *ngIf="emailAddressControl.errors?.duplicate">Email already registered.</div> -->
+
+        <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1"
+            placeholder="Password" name="password" value aria-required="true" aria-label="Password">
+
+        <input type="submit" value="Signup" ng-click="login()" class="btn btn-primary" style="width: 350px" [disabled]="signupForm.invalid">
+    </form>
+    <div class="divider"></div>
+    <a routerLink="/login">Already have an account? Click to login!!</a>
+    <p></p>
+</div>

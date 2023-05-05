@@ -1,0 +1,68 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main-body {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+.table-container {
+  box-shadow: 10px 10px 5px 12px lightblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.add-details {
+  justify-content: flex-end;
+  display: flex;
+  margin-top: 10px;
+}
+
+.btn {
+  color: black;
+  background-color: azure;
+}
+
+/* .mat-sidenav{
+  background-color: #1c2835;
+} */
+.logo {
+  justify-content: center;
+  display: flex;
+}
+
+.imgLogo {
+  height: 120px;
+  width: 120px;
+}
+
+.divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #AC7839;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #AC7839;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.hand-cursor {
+  cursor: pointer;
+}

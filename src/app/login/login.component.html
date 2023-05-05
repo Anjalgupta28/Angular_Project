@@ -1,0 +1,15 @@
+<div class="login-box">
+    <h1>Login</h1>
+    <h3>Please enter email & password</h3>
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <input formControlName="emailAddress" type="email" class="form-control" id="email" aria-describedby="emailHelp"
+            placeholder="Email address or phone number" autofocus="1" name="email"
+            aria-label="Email address or phone number">
+        <input formControlName="password" type="password" class="form-control" id="password" placeholder="Password"
+            name="pass" aria-label="Password">
+        <input type="submit" value="Login" ng-click="login()" class="btn btn-primary" style="width: 350px">
+    </form>
+    <div class="divider"></div>
+    <a routerLink="/signup">New user? Click to signup</a>
+    <p></p>
+</div>
