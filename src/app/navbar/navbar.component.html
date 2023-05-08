@@ -1,10 +1,14 @@
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
-<mat-toolbar color="primary" style="background-color: #1c2835;">
+<mat-toolbar color="primary" style="background-color: #1c2835;" *ngIf="isloggedIn">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="sidenav.toggle()">
      <mat-icon>menu</mat-icon>
   </button>
   <span class="hand-cursor" routerLink="/dashboard"> Angular</span>
+  <!-- <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search Product">
+  </div>
+  <span class="fas fa-search search-icon"></span> -->
   <span class="example-spacer"></span>
   <button class="hover-underline-animation" mat-button style="margin-right: 10px;"
     routerLink="/dashboard">Dashboard</button>
@@ -47,8 +51,7 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <div style="height: 100vh; ">
-      <router-outlet>
-      </router-outlet>
+      <router-outlet></router-outlet>
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

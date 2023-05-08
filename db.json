@@ -153,6 +153,42 @@
       "experience": 5,
       "ctc": 5,
       "id": 8
+    },
+    {
+      "firstName": "Anjal",
+      "lastName": "dknknb",
+      "email": "nvkdsnjk",
+      "dob": "2023-05-08T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "snljknkl",
+      "experience": 8,
+      "ctc": 8,
+      "id": 9
+    },
+    {
+      "firstName": "sdmck.mkl",
+      "lastName": "m fclmklm",
+      "email": ".cvln l",
+      "dob": "2023-05-15T18:30:00.000Z",
+      "gender": "female",
+      "education": "Matric",
+      "company": "x ln vl",
+      "experience": 8,
+      "ctc": 8,
+      "id": 10
+    },
+    {
+      "firstName": "mvxcklnlk",
+      "lastName": " cnlnkln",
+      "email": "xv ,m",
+      "dob": "2023-05-17T18:30:00.000Z",
+      "gender": "male",
+      "education": "Diploma",
+      "company": "kmkk",
+      "experience": 6,
+      "ctc": 6,
+      "id": 11
     }
   ],
   "profile": {
