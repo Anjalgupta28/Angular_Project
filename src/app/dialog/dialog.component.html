@@ -7,23 +7,24 @@
         <div class="row">
             <mat-form-field appearance="outline">
                 <mat-label>First Name</mat-label>
-                <input type="text" matInput placeholder="Anjal"  formControlName="firstName">
+                <input type="text" matInput placeholder="Anjal"  formControlName="firstName" required>
+                
             </mat-form-field>
 
             <mat-form-field appearance="outline">
                 <mat-label>Last Name</mat-label>
-                <input type="text" matInput placeholder="Gupta" formControlName="lastName">
+                <input type="text" matInput placeholder="Gupta" formControlName="lastName" required>
             </mat-form-field>
         </div>
 
         <div class="row">
             <mat-form-field appearance="outline">
                 <mat-label>Email</mat-label>
-                <input matInput type="email" placeholder="anjal@gmail.com" formControlName="email">
+                <input matInput type="email" placeholder="anjal@gmail.com" formControlName="email" required>
             </mat-form-field>
             <mat-form-field appearance="outline">
                 <mat-label>Date of Birth</mat-label>
-                <input matInput [matDatepicker]="picker" formControlName="dob">
+                <input matInput [matDatepicker]="picker" formControlName="dob" required>
 
                 <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
                 <mat-datepicker #picker></mat-datepicker>
@@ -31,7 +32,7 @@
         </div>
 
         <div class="row">
-            <mat-radio-group aria-label="Select an option" formControlName="gender">
+            <mat-radio-group aria-label="Select an option" formControlName="gender" required>
                 <mat-label><b>Gender</b></mat-label>
                 <mat-radio-button value="male">Male</mat-radio-button>
                 <mat-radio-button value="female">Female</mat-radio-button>
@@ -42,7 +43,7 @@
         <div class="row">
             <mat-form-field appearance="outline">
                 <mat-label>Education</mat-label>
-                <mat-select formControlName="education">
+                <mat-select formControlName="education" required>
                     <mat-option *ngFor="let val of education" [value]="val">
                         {{val}}
                     </mat-option>
@@ -51,18 +52,18 @@
 
             <mat-form-field appearance="outline">
                 <mat-label>Company</mat-label>
-                <input matInput placeholder="Ex. Google" formControlName="company">
+                <input matInput placeholder="Ex. Google" formControlName="company" required>
             </mat-form-field>
         </div>
 
         <div class="row">
             <mat-form-field appearance="outline">
                 <mat-label>Experience</mat-label>
-                <input matInput placeholder="Ex: 8" type="number" formControlName="experience">
+                <input matInput placeholder="Ex: 8" type="number" formControlName="experience" required>
             </mat-form-field>
             <mat-form-field appearance="outline">
                 <mat-label>CTC</mat-label>
-                <input matInput placeholder="Ex: 8" type="number" formControlName="ctc">
+                <input matInput placeholder="Ex: 8" type="number" formControlName="ctc" required>
                 <mat-hint>In Rupees ₹</mat-hint>
             </mat-form-field>
         </div>

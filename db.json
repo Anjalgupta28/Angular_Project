@@ -189,6 +189,18 @@
       "experience": 6,
       "ctc": 6,
       "id": 11
+    },
+    {
+      "firstName": "Anjal",
+      "lastName": "Gupta",
+      "email": "dsln",
+      "dob": "2023-05-04T18:30:00.000Z",
+      "gender": "others",
+      "education": "Diploma",
+      "company": "google",
+      "experience": 8,
+      "ctc": 8,
+      "id": 12
     }
   ],
   "profile": {

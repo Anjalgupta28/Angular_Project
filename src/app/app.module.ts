@@ -34,6 +34,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ChartComponent } from './chart/chart.component';
 import { ChartModule } from 'angular-highcharts';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import { CarouselModule } from '@coreui/angular';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -75,6 +77,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     ChartModule,
     MatProgressSpinnerModule,
     MatListModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

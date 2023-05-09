@@ -90,10 +90,16 @@
             ],
             "styles": [
               "@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/@coreui/coreui/dist/css/coreui.min.css",
+              "node_modules/@coreui/icons/css/coreui-icons.min.css",
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css" 
             ],
             "scripts": [
+              "node_modules/@coreui/coreui/dist/js/coreui.bundle.min.js",
+
+              "node_modules/@coreui/icons/js/svgxuse.min.js",
+
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
 
               "node_modules/jquery/dist/jquery.min.js",
